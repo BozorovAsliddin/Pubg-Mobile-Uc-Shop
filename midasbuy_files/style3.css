@@ -1,0 +1,1533 @@
+.OrderSummary_pop_bg__fqLj7 {
+    background-color: var(--black2);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99
+}
+
+.OrderSummary_pop_mode_box__tzghC {
+    background-color: var(--bg5);
+    background-repeat: no-repeat;
+    border-radius: 12px 12px 0 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    -webkit-transform: translateY(100vh);
+    transform: translateY(100vh);
+    transition: .2s ease-in-out;
+    width: 100%;
+    z-index: -2
+}
+
+.OrderSummary_pop_mode_box__tzghC.OrderSummary_s_pop__ZEM2X {
+    padding-bottom: 20px;
+    width: 335px
+}
+
+.OrderSummary_pop_mode_box__tzghC.OrderSummary_s_pop__ZEM2X .OrderSummary_pop_mess__5S\+yR {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.OrderSummary_pop_mode_box__tzghC.OrderSummary_active__GUa5S {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    z-index: 101
+}
+
+@media screen and (min-width:768px) {
+    .OrderSummary_pop_mode_box__tzghC {
+        border-radius: 12px;
+        bottom: auto;
+        left: 50%;
+        opacity: 0;
+        overflow: hidden;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        transition: all .2s ease-in-out;
+        width: auto
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_active__GUa5S {
+        opacity: 1;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%)
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_s_pop__ZEM2X {
+        width: 335px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_s_pop__ZEM2X .OrderSummary_pop_mess__5S\+yR {
+        padding-left: 40px;
+        padding-right: 40px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_m_pop__e09MM {
+        max-height: 608px;
+        min-height: 568px;
+        width: 568px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_m_pop__e09MM .OrderSummary_pop_mess__5S\+yR {
+        padding-left: 72px;
+        padding-right: 72px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_l_pop__ElnHG {
+        max-height: 608px;
+        min-height: 568px;
+        width: 568px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_l_pop__ElnHG .OrderSummary_pop_mess__5S\+yR {
+        padding-left: 72px;
+        padding-right: 72px
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_s_pop__ZEM2X {
+        width: 375px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_m_pop__e09MM {
+        max-height: 546px;
+        min-height: 568px;
+        width: 568px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_m_pop__e09MM .OrderSummary_pop_mess__5S\+yR {
+        padding-left: 72px;
+        padding-right: 72px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_l_pop__ElnHG {
+        max-height: 546px;
+        min-height: 546px;
+        width: 768px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_l_pop__ElnHG .OrderSummary_pop_mess__5S\+yR {
+        padding-left: 32px;
+        padding-right: 32px
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_s_pop__ZEM2X {
+        width: 375px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_m_pop__e09MM {
+        max-height: 546px;
+        min-height: 568px;
+        width: 568px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_l_pop__ElnHG {
+        max-height: 546px;
+        min-height: 546px;
+        width: 824px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_l_pop__ElnHG .OrderSummary_pop_mess__5S\+yR {
+        padding-left: 64px;
+        padding-right: 64px
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_s_pop__ZEM2X {
+        width: 375px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_m_pop__e09MM {
+        max-height: 630px;
+        min-height: 568px;
+        width: 568px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_l_pop__ElnHG {
+        max-height: 630px;
+        min-height: 630px;
+        width: 824px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_l_pop__ElnHG .OrderSummary_pop_mess__5S\+yR {
+        padding-left: 64px;
+        padding-right: 64px
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_s_pop__ZEM2X {
+        width: 375px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_m_pop__e09MM {
+        max-height: 630px;
+        min-height: 568px;
+        width: 568px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_l_pop__ElnHG {
+        max-height: 630px;
+        min-height: 630px;
+        width: 960px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_l_pop__ElnHG .OrderSummary_pop_mess__5S\+yR {
+        padding-left: 100px;
+        padding-right: 100px
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_s_pop__ZEM2X {
+        width: 375px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_m_pop__e09MM {
+        max-height: 730px;
+        min-height: 568px;
+        width: 568px
+    }
+
+    .OrderSummary_pop_mode_box__tzghC.OrderSummary_l_pop__ElnHG {
+        max-height: 730px;
+        min-height: 630px;
+        width: 960px
+    }
+}
+
+.OrderSummary_pop_mess__5S\+yR {
+    box-sizing: border-box;
+    padding: 20px
+}
+
+.OrderSummary_pop_mess__5S\+yR::-webkit-scrollbar {
+    width: 6px
+}
+
+.OrderSummary_pop_mess__5S\+yR::-webkit-scrollbar-thumb {
+    background-color: #2c3665;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, .2)
+}
+
+@media(max-width:767px) {
+    .OrderSummary_mobile_show__3X72G {
+        display: block !important
+    }
+
+    .OrderSummary_pc_show__XAomN,
+    .OrderSummary_tablet_show__-PEc7 {
+        display: none
+    }
+}
+
+@media(min-width:768px) {
+    .OrderSummary_mobile_show__3X72G {
+        display: none
+    }
+
+    .OrderSummary_tablet_show__-PEc7 {
+        display: block !important
+    }
+
+    .OrderSummary_pc_show__XAomN {
+        display: none
+    }
+}
+
+@media(min-width:1025px) {
+
+    .OrderSummary_mobile_show__3X72G,
+    .OrderSummary_tablet_show__-PEc7 {
+        display: none
+    }
+
+    .OrderSummary_pc_show__XAomN {
+        display: block !important
+    }
+}
+
+@media(min-width:768px) {
+    body .t-tooltip--default .t-popup__content {
+        right: auto
+    }
+}
+
+.OrderSummary_account_bar__pVeoR {
+    background-color: var(--bg4);
+    border-radius: 12px 12px 0 0;
+    bottom: 62px;
+    box-sizing: border-box;
+    padding: 16px 0;
+    position: fixed;
+    width: 100%
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR {
+    max-height: 0;
+    overflow: auto;
+    padding: 0 20px;
+    transition: .2s ease-in-out
+}
+
+.OrderSummary_account_bar__pVeoR.OrderSummary_active__GUa5S {
+    bottom: 79px;
+    padding: 16px 0 0;
+    z-index: 500
+}
+
+.OrderSummary_account_bar__pVeoR.OrderSummary_active__GUa5S .OrderSummary_account_det_box__Fu5JR {
+    max-height: calc(var(--vh)*100 - 251px)
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_top_box__0lIym {
+    padding: 0 20px;
+    position: relative
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I {
+    align-items: center;
+    display: flex;
+    margin-bottom: 4px
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I:first-child {
+    padding-right: 78px
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I:nth-last-child(2) {
+    border-bottom: 1px solid hsla(0, 0%, 100%, .05);
+    margin-bottom: 0;
+    padding-bottom: 16px
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_label__I-6NB {
+    color: var(--white3);
+    flex-shrink: 0;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 8px
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp {
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    width: 100%
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp.OrderSummary_check_id__eoQhf .OrderSummary_text__Omd-9 {
+    cursor: pointer
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_text__Omd-9 {
+    color: var(--white1);
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 1;
+    overflow: hidden;
+    padding-right: 16px;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_link__uhgwT {
+    align-items: center;
+    color: var(--brand-text);
+    cursor: pointer;
+    display: flex;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_link__uhgwT i {
+    font-size: 14px
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_switch_id__qseAy {
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_hint__L9-Zu {
+    color: var(--white3);
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 2px
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_promotion__WtPrT {
+    color: var(--yellow);
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 2px
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_gift_text__V9jKC {
+    max-width: auto;
+    overflow: hidden;
+    padding-right: 28px;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_gifts_list__ZiDBb {
+    align-items: center;
+    display: flex;
+    justify-content: vc
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_gifts_list__ZiDBb.OrderSummary_refresh__TIDLp img {
+    -webkit-animation: OrderSummary_secondDiv__LWIer 1s infinite;
+    animation: OrderSummary_secondDiv__LWIer 1s infinite
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU {
+    background: var(--bg4);
+    border-radius: 6px;
+    height: 28px;
+    margin-right: 4px;
+    position: relative;
+    width: 28px
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_val__qSqzq {
+    bottom: 0;
+    color: var(--white1);
+    font-family: PingFang SC;
+    font-size: 12px;
+    line-height: 12px;
+    position: absolute;
+    right: 0
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_icon__U4m7c {
+    color: var(--white2);
+    font-size: 12px;
+    left: 1px;
+    position: absolute;
+    top: 1px;
+    z-index: 1
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU p {
+    color: var(--white2);
+    font-family: PingFang SC;
+    font-size: 12px;
+    left: 50%;
+    line-height: 12px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU img {
+    left: 50%;
+    max-height: 22px;
+    max-width: 22px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_show_btn__7nX\+e {
+    align-items: center;
+    color: var(--brand-text);
+    cursor: pointer;
+    display: flex;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: auto;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    -webkit-user-select: none;
+    user-select: none
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_show_btn__7nX\+e i {
+    font-size: 16px
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_show_btn__7nX\+e.OrderSummary_active__GUa5S i {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition: .2s ease-in-out
+}
+
+.OrderSummary_pop_footer__niIcV {
+    align-items: center;
+    background: var(--bg6);
+    border-top: 1px solid var(--white6);
+    bottom: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: vc;
+    justify-content: space-between;
+    padding: 16px 20px;
+    position: absolute;
+    transition: .2s ease-in-out;
+    width: 100%;
+    z-index: 501
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_total_box__ILo3o {
+    align-items: center;
+    display: flex;
+    justify-content: vc;
+    margin-bottom: 4px
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_total_box__ILo3o:last-child {
+    margin-bottom: 0
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_total_box__ILo3o .OrderSummary_label__I-6NB {
+    color: var(--white2);
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 8px
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_total_box__ILo3o .OrderSummary_val__qSqzq {
+    color: var(--white1);
+    font-family: hok-title;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_total_box__ILo3o img {
+    height: 20px;
+    margin-left: 0;
+    margin-right: 2px;
+    width: 20px
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_total_box__ILo3o i {
+    color: var(--white3);
+    font-size: 16px;
+    height: 16px;
+    margin-left: 4px;
+    width: 16px
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy>div:last-child {
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_promotion_text__py16V {
+    color: var(--yellow);
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 2px
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_sub_text__GIR9W {
+    color: var(--white2);
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 2px
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_text__Omd-9 {
+    color: var(--white1);
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 2px
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_vip_box__9DJmh {
+    align-items: center;
+    display: flex;
+    justify-content: vc
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_vip_box__9DJmh .OrderSummary_label__I-6NB {
+    color: var(--white2);
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 4px
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_vip_box__9DJmh .OrderSummary_val__qSqzq {
+    align-items: center;
+    color: var(--white2);
+    display: flex;
+    font-family: Arial;
+    font-size: 12px;
+    justify-content: vc;
+    line-height: 12px;
+    margin-right: 6px
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_vip_box__9DJmh .OrderSummary_val__qSqzq:last-child {
+    margin-right: 0
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_vip_box__9DJmh .OrderSummary_val__qSqzq img {
+    height: 18px;
+    margin-right: 2px
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_vip_box__9DJmh .OrderSummary_val__qSqzq i {
+    margin-right: 2px
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_btn__oB-yb {
+    background: linear-gradient(to bottom right, var(--blue-gradient-lighter) 0, var(--blue-gradient) 100%);
+    border-radius: 6px;
+    color: var(--white1);
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: Arial;
+    font-size: 14px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    width: 160px
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_btn__oB-yb:active {
+    background: linear-gradient(to bottom right, var(--brand-click-lighter) 0, var(--brand-click) 100%)
+}
+
+.OrderSummary_pop_footer__niIcV .OrderSummary_btn__oB-yb.OrderSummary_disable__qJV5O {
+    background: linear-gradient(to bottom right, var(--brand-disable-lighter) 0, var(--brand-disable) 100%);
+    color: var(--white4);
+    pointer-events: none
+}
+
+@media(any-hover:hover) {
+    .OrderSummary_pop_footer__niIcV .OrderSummary_btn__oB-yb:hover {
+        background: linear-gradient(to bottom right, var(--brand-hover-lighter) 0, var(--brand-hover) 100%)
+    }
+}
+
+.OrderSummary_gift_slide_box__P9W6o {
+    padding-top: 16px
+}
+
+.OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_title__InFhb {
+    color: var(--white3);
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 8px
+}
+
+.OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb {
+    border-bottom: 1px solid hsla(0, 0%, 100%, .05);
+    box-sizing: border-box;
+    padding: 0 0 15px
+}
+
+.OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU {
+    align-items: center;
+    display: flex;
+    justify-content: vc;
+    margin-bottom: 12px
+}
+
+.OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU:last-child {
+    margin-bottom: 0
+}
+
+.OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_img_box__JyH4p {
+    background: var(--bg4);
+    border-radius: 1px;
+    flex-shrink: 0;
+    height: 64px;
+    margin-right: 16px;
+    position: relative;
+    width: 64px
+}
+
+.OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_img_box__JyH4p .OrderSummary_gift_icon__kXpNG {
+    color: var(--white4);
+    font-size: 16px;
+    height: 16px;
+    left: 2px;
+    position: absolute;
+    top: 2px;
+    width: 16px
+}
+
+.OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_img_box__JyH4p .OrderSummary_val__qSqzq {
+    bottom: 4px;
+    color: var(--white3);
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 16px;
+    position: absolute;
+    right: 4px
+}
+
+.OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_img_box__JyH4p img {
+    left: 50%;
+    max-height: 54px;
+    max-width: 54px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_gift_desc__Apyvb {
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    justify-content: center;
+    width: 0
+}
+
+.OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_gift_desc__Apyvb .OrderSummary_name__Sopr0 {
+    color: var(--white1);
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 4px;
+    max-width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%
+}
+
+.OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_gift_desc__Apyvb .OrderSummary_limit__U00Qy {
+    align-items: center;
+    color: var(--white3);
+    display: flex;
+    font-family: Arial;
+    font-size: 12px;
+    justify-content: vc;
+    line-height: 18px;
+    margin-bottom: 4px
+}
+
+.OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_gift_desc__Apyvb .OrderSummary_limit__U00Qy:last-child {
+    margin-bottom: 0
+}
+
+.OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_gift_desc__Apyvb .OrderSummary_limit__U00Qy .OrderSummary_cut_line__MO9Ne {
+    background-color: var(--white5);
+    height: 12px;
+    margin: 0 8px;
+    width: 1px
+}
+
+.OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_gift_desc__Apyvb .OrderSummary_promotion__WtPrT {
+    align-items: center;
+    color: var(--yellow);
+    display: flex;
+    font-family: Arial;
+    font-size: 12px;
+    justify-content: vc;
+    line-height: 16px;
+    margin-bottom: 4px
+}
+
+.OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_gift_desc__Apyvb .OrderSummary_promotion__WtPrT i {
+    font-size: 14px
+}
+
+.OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_gift_desc__Apyvb .OrderSummary_promotion__WtPrT:last-child {
+    margin-bottom: 0
+}
+
+.OrderSummary_slide_bg__oQzKK {
+    background: var(--black2);
+    height: 100vh;
+    left: 50%;
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: .2s ease-in-out;
+    width: 100vw;
+    z-index: 498
+}
+
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_title__InFhb {
+    color: var(--white3);
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 8px
+}
+
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d {
+    box-sizing: border-box
+}
+
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy {
+    padding: 16px 0
+}
+
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 {
+    padding: 12px 0 8px
+}
+
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9,
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy {
+    border-bottom: 1px solid var(--white6)
+}
+
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_item_box__9d1H7,
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_item_box__9d1H7 {
+    align-items: center;
+    display: flex;
+    justify-content: vc;
+    justify-content: space-between;
+    margin-bottom: 8px
+}
+
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_item_box__9d1H7:last-child,
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_item_box__9d1H7:last-child {
+    margin-bottom: 0
+}
+
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_exchange_box__QDpmJ,
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_exchange_box__QDpmJ {
+    border: 1px solid var(--white5);
+    box-sizing: border-box;
+    color: var(--white3);
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 8px;
+    padding: 12px
+}
+
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_val_box__f4OHp,
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_val_box__f4OHp {
+    align-items: center;
+    display: flex;
+    justify-content: vc
+}
+
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_val_box__f4OHp .OrderSummary_val__qSqzq,
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_val_box__f4OHp .OrderSummary_val__qSqzq {
+    align-items: center;
+    color: var(--white1);
+    display: flex;
+    font-family: Arial;
+    font-size: 14px;
+    justify-content: vc;
+    line-height: 22px
+}
+
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_val_box__f4OHp .OrderSummary_highlight_val__OgFuj,
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_val_box__f4OHp .OrderSummary_highlight_val__OgFuj {
+    align-items: center;
+    color: var(--yellow);
+    display: flex;
+    font-family: Arial;
+    font-size: 14px;
+    justify-content: vc;
+    line-height: 22px
+}
+
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_val_box__f4OHp .OrderSummary_total_val__jonRs,
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_val_box__f4OHp .OrderSummary_total_val__jonRs {
+    align-items: center;
+    color: var(--white1);
+    display: flex;
+    font-family: Arial;
+    font-size: 16px;
+    justify-content: vc;
+    line-height: 24px
+}
+
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_val_box__f4OHp i,
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_val_box__f4OHp img,
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_val_box__f4OHp i,
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_val_box__f4OHp img {
+    font-size: 20px;
+    height: 20px;
+    margin: 0 4px;
+    width: 20px
+}
+
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_label__I-6NB,
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_label__I-6NB {
+    color: var(--white2);
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 22px
+}
+
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_total_label__WxGZy,
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_total_label__WxGZy {
+    color: var(--white1);
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_tips_text_box__iBB5K {
+    border: 1px solid var(--white5);
+    box-sizing: border-box;
+    color: var(--white3);
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 16px;
+    padding: 12px
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR::-webkit-scrollbar,
+.OrderSummary_pop_mess__5S\+yR::-webkit-scrollbar {
+    width: 6px
+}
+
+.OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR::-webkit-scrollbar-thumb,
+.OrderSummary_pop_mess__5S\+yR::-webkit-scrollbar-thumb {
+    background-color: #2c3665;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, .2)
+}
+
+.OrderSummary_pop_up__Bssor .OrderSummary_close_icon__kkksR {
+    cursor: pointer
+}
+
+@media(min-width:768px) {
+    .OrderSummary_pop_up__Bssor {
+        margin-bottom: 12px !important;
+        max-width: 424px
+    }
+
+    .OrderSummary_account_bar__pVeoR {
+        bottom: 79px;
+        padding: 32px 0 20px
+    }
+
+    .OrderSummary_account_bar__pVeoR.OrderSummary_active__GUa5S {
+        bottom: 101px;
+        padding: 32px 0 0
+    }
+
+    .OrderSummary_account_bar__pVeoR.OrderSummary_active__GUa5S .OrderSummary_account_det_box__Fu5JR {
+        height: 526px;
+        max-height: 526px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_top_box__0lIym {
+        padding: 0 72px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I::nth-last-child(2) {
+        padding-bottom: 20px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_label__I-6NB,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_link__uhgwT {
+        font-size: 14px;
+        line-height: 22px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_link__uhgwT i {
+        font-size: 16px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_hint__L9-Zu,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_promotion__WtPrT,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_text__Omd-9 {
+        font-size: 14px;
+        line-height: 22px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_hint__L9-Zu i {
+        font-size: 14px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_text__Omd-9 {
+        padding-right: 20px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_switch_id__qseAy {
+        font-size: 16px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_show_btn__7nX\+e {
+        font-size: 14px;
+        line-height: 22px;
+        right: 72px
+    }
+
+    .OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_gift_desc__Apyvb .OrderSummary_limit__U00Qy,
+    .OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_gift_desc__Apyvb .OrderSummary_promotion__WtPrT,
+    .OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_title__InFhb {
+        font-size: 14px;
+        line-height: 22px
+    }
+
+    .OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_gift_desc__Apyvb .OrderSummary_promotion__WtPrT i {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_title__InFhb {
+        font-size: 14px;
+        line-height: 22px
+    }
+
+    .OrderSummary_pop_footer__niIcV {
+        border-radius: 0 0 12px 12px;
+        padding: 24px 72px
+    }
+
+    .OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_promotion_text__py16V,
+    .OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_sub_text__GIR9W,
+    .OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_text__Omd-9,
+    .OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_vip_box__9DJmh .OrderSummary_label__I-6NB,
+    .OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_vip_box__9DJmh .OrderSummary_val__qSqzq {
+        font-size: 14px;
+        line-height: 22px
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .OrderSummary_pop_footer__niIcV {
+        padding: 24px 32px
+    }
+
+    .OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_total_box__ILo3o .OrderSummary_val__qSqzq {
+        font-size: 20px;
+        line-height: 28px
+    }
+
+    .OrderSummary_pop_footer__niIcV .OrderSummary_btn__oB-yb {
+        font-size: 16px;
+        height: 52px;
+        line-height: 52px;
+        min-width: 193px
+    }
+
+    .OrderSummary_payment_box__KNTzl {
+        align-items: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between
+    }
+
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X {
+        display: inline-block;
+        margin-right: 24px;
+        overflow: visible;
+        width: calc(50% - 12px)
+    }
+
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X:nth-child(2n) {
+        margin-right: 0
+    }
+
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X:last-child {
+        margin-bottom: 12px
+    }
+
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs .OrderSummary_cashback_text__Mftxy,
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs .OrderSummary_link_text__tpDSH,
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs .OrderSummary_sub_text__GIR9W {
+        max-width: 220px
+    }
+
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs .OrderSummary_text__Omd-9 {
+        display: block;
+        max-width: auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap
+    }
+
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs.OrderSummary_one_gift__3Elsv .OrderSummary_cashback_text__Mftxy,
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs.OrderSummary_one_gift__3Elsv .OrderSummary_link_text__tpDSH,
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs.OrderSummary_one_gift__3Elsv .OrderSummary_sub_text__GIR9W,
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs.OrderSummary_one_gift__3Elsv .OrderSummary_text__Omd-9 {
+        max-width: 174px
+    }
+
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs.OrderSummary_two_gift__kXz73 .OrderSummary_cashback_text__Mftxy,
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs.OrderSummary_two_gift__kXz73 .OrderSummary_link_text__tpDSH,
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs.OrderSummary_two_gift__kXz73 .OrderSummary_sub_text__GIR9W,
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs.OrderSummary_two_gift__kXz73 .OrderSummary_text__Omd-9 {
+        max-width: 138px
+    }
+
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs.OrderSummary_three_gift__jbUPY .OrderSummary_cashback_text__Mftxy,
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs.OrderSummary_three_gift__jbUPY .OrderSummary_link_text__tpDSH,
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs.OrderSummary_three_gift__jbUPY .OrderSummary_sub_text__GIR9W,
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs.OrderSummary_three_gift__jbUPY .OrderSummary_text__Omd-9 {
+        max-width: 104px
+    }
+
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X.OrderSummary_midas_coin__1NSvy .OrderSummary_payment_wrap__cTh8V {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        padding-bottom: 14px
+    }
+
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X.OrderSummary_midas_coin__1NSvy.OrderSummary_active__GUa5S {
+        background: linear-gradient(top to bottom, #00c4de 100%, #1b56ff 0);
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0
+    }
+
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X.OrderSummary_midas_coin__1NSvy.OrderSummary_active__GUa5S .OrderSummary_midas_coin_box__N6QT3 {
+        background: #1b56ff;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        display: block;
+        height: auto
+    }
+
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X.OrderSummary_midas_coin__1NSvy.OrderSummary_active__GUa5S .OrderSummary_midas_coin_box__N6QT3>div {
+        background: var(--bg3);
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px
+    }
+
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X.OrderSummary_midas_coin__1NSvy:hover .OrderSummary_midas_coin_box__N6QT3>div {
+        background: var(--bg1)
+    }
+
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_midas_coin_box__N6QT3 {
+        background: var(--bg4);
+        border-top: none;
+        display: none;
+        height: 0;
+        left: -2px;
+        margin-top: 0;
+        padding: 0 2px 2px;
+        position: absolute;
+        top: 100%;
+        top: calc(100% - 2px);
+        width: calc(100% + 4px);
+        z-index: 6
+    }
+
+    .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_midas_coin_box__N6QT3>div {
+        align-items: center;
+        background: var(--bg4);
+        border-top: 1px solid var(--white6);
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -1px;
+        padding: 12px 20px
+    }
+
+    .OrderSummary_account_bar__pVeoR {
+        bottom: 76px;
+        padding: 20px 0
+    }
+
+    .OrderSummary_account_bar__pVeoR.OrderSummary_active__GUa5S {
+        padding: 40px 0 0
+    }
+
+    .OrderSummary_account_bar__pVeoR.OrderSummary_active__GUa5S .OrderSummary_account_det_box__Fu5JR {
+        box-sizing: border-box;
+        height: 510px;
+        max-height: 510px;
+        padding-bottom: 24px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-height: 0;
+        padding: 0 32px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR>div {
+        box-sizing: border-box;
+        flex-shrink: 0;
+        width: 50%
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR>div:only-child {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_gift_slide_box__P9W6o {
+        padding-right: 24px;
+        padding-top: 24px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 {
+        position: relative
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2:after {
+        background-color: var(--white6);
+        content: "";
+        height: 100%;
+        position: absolute;
+        right: -24px;
+        top: 0;
+        width: 1px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_title__InFhb {
+        margin-bottom: 12px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb {
+        border-bottom: none;
+        padding-bottom: 0
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU {
+        margin-bottom: 20px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU:last-child {
+        margin-bottom: 0
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq {
+        padding-left: 24px;
+        padding-top: 24px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 {
+        padding-bottom: 32px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_title__InFhb {
+        margin-bottom: 12px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy {
+        padding-bottom: 32px;
+        padding-top: 0
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 {
+        padding-bottom: 16px;
+        padding-top: 32px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy {
+        border-bottom: 1px solid var(--white6)
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9:last-child(),
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy:last-child() {
+        border-bottom: none
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_item_box__9d1H7,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_item_box__9d1H7 {
+        margin-bottom: 12px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_item_box__9d1H7:last-child,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_item_box__9d1H7:last-child {
+        margin-bottom: 0
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_exchange_box__QDpmJ,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_exchange_box__QDpmJ {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 0
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_val_box__f4OHp .OrderSummary_highlight_val__OgFuj,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_val_box__f4OHp .OrderSummary_total_val__jonRs,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_val_box__f4OHp .OrderSummary_val__qSqzq,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_val_box__f4OHp .OrderSummary_highlight_val__OgFuj,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_val_box__f4OHp .OrderSummary_total_val__jonRs,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_val_box__f4OHp .OrderSummary_val__qSqzq {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_val_box__f4OHp i,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_val_box__f4OHp img,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_val_box__f4OHp i,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_val_box__f4OHp img {
+        margin: 0 4px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_label__I-6NB,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_total_label__WxGZy,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_label__I-6NB,
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_price_box__gkmSy .OrderSummary_total_label__WxGZy {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_tips_text_box__iBB5K {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 0
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_top_box__0lIym {
+        padding: 0 32px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I {
+        margin-bottom: 8px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I:nth-last-child(2) {
+        padding-bottom: 20px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_show_btn__7nX\+e {
+        right: 32px
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .OrderSummary_account_bar__pVeoR .OrderSummary_top_box__0lIym {
+        padding: 0 64px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR {
+        padding-left: 64px;
+        padding-right: 64px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_show_btn__7nX\+e {
+        right: 64px
+    }
+
+    .OrderSummary_pop_footer__niIcV {
+        padding: 24px 64px
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .OrderSummary_account_bar__pVeoR .OrderSummary_top_box__0lIym {
+        padding: 0 100px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR {
+        padding-left: 100px;
+        padding-right: 100px
+    }
+
+    .OrderSummary_account_bar__pVeoR .OrderSummary_show_btn__7nX\+e {
+        right: 100px
+    }
+
+    .OrderSummary_pop_footer__niIcV {
+        padding: 24px 100px
+    }
+}
+
+[dir=rtl] .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_l__bjQ3S {
+    margin-left: auto;
+    margin-right: 0
+}
+
+[dir=rtl] .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_r__zimhk {
+    margin-left: 0;
+    margin-right: 16px
+}
+
+[dir=rtl] .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_icon__BxW0Y {
+    margin-left: 16px;
+    margin-right: 0
+}
+
+[dir=rtl] .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs .OrderSummary_link_text__tpDSH,
+[dir=rtl] .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs .OrderSummary_sub_text__GIR9W {
+    padding-left: 16px;
+    padding-right: 0
+}
+
+[dir=rtl] .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs .OrderSummary_link_text__tpDSH i,
+[dir=rtl] .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_payment_mess__usfSs .OrderSummary_sub_text__GIR9W i {
+    left: 0;
+    right: auto;
+    -webkit-transform: rotate(180deg) translateY(50%);
+    transform: rotate(180deg) translateY(50%)
+}
+
+[dir=rtl] .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_gift_box__8s-gz .OrderSummary_gifts_item__5LfQU {
+    margin-left: 2px;
+    margin-right: 0
+}
+
+[dir=rtl] .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_gift_box__8s-gz .OrderSummary_gifts_item__5LfQU:first-child,
+[dir=rtl] .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_gift_box__8s-gz .OrderSummary_gifts_item__5LfQU:last-child {
+    margin-left: 0;
+    margin-right: 0
+}
+
+[dir=rtl] .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_label__I-6NB {
+    margin-left: 8px;
+    margin-right: 0
+}
+
+[dir=rtl] .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_hint__L9-Zu,
+[dir=rtl] .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_promotion__WtPrT {
+    margin-left: 0;
+    margin-right: 2px
+}
+
+[dir=rtl] .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_val_box__f4OHp .OrderSummary_gift_text__V9jKC {
+    padding-left: 28px;
+    padding-right: 0
+}
+
+[dir=rtl] .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU {
+    margin-left: 4px;
+    margin-right: 0
+}
+
+[dir=rtl] .OrderSummary_account_bar__pVeoR .OrderSummary_show_btn__7nX\+e {
+    left: 20px;
+    right: auto
+}
+
+[dir=rtl] .OrderSummary_gift_slide_box__P9W6o .OrderSummary_slide_box__0-yX2 .OrderSummary_gifts_list__ZiDBb .OrderSummary_gifts_item__5LfQU .OrderSummary_img_box__JyH4p {
+    margin-left: 16px;
+    margin-right: 0
+}
+
+[dir=rtl] .OrderSummary_pay_detail_slide_box__GuWZq .OrderSummary_slide_box__0-yX2 .OrderSummary_mess_box__rEI7d .OrderSummary_points_box__WwQp9 .OrderSummary_val_box__f4OHp img,
+[dir=rtl] .OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_vip_box__9DJmh .OrderSummary_label__I-6NB {
+    margin-left: 4px;
+    margin-right: 0
+}
+
+[dir=rtl] .OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_vip_box__9DJmh .OrderSummary_val__qSqzq {
+    margin-left: 6px;
+    margin-right: 0
+}
+
+[dir=rtl] .OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_vip_box__9DJmh .OrderSummary_val__qSqzq img {
+    margin-left: 2px;
+    margin-right: 0
+}
+
+[dir=rtl] .OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_total_box__ILo3o i {
+    margin-left: 0;
+    margin-right: 4px
+}
+
+[dir=rtl] .OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_total_box__ILo3o .OrderSummary_label__I-6NB {
+    margin-left: 8px;
+    margin-right: 0
+}
+
+[dir=rtl] .OrderSummary_payment_box__KNTzl .OrderSummary_payment_item__-gx1X .OrderSummary_link_box__WuO8p i {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+[dir=rtl] .OrderSummary_account_bar__pVeoR .OrderSummary_val_item__aAt0I:first-child {
+    padding-left: 78px;
+    padding-right: 0
+}
+
+[dir=rtl] .OrderSummary_pop_footer__niIcV .OrderSummary_price_box__gkmSy .OrderSummary_total_box__ILo3o img {
+    margin-left: 2px;
+    margin-right: 0
+}
+
+@media(min-width:768px) {
+    [dir=rtl] .OrderSummary_account_bar__pVeoR .OrderSummary_show_btn__7nX\+e {
+        left: 72px;
+        right: auto
+    }
+}
+
+@media(min-width:1025px) {
+    [dir=rtl] .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_gift_slide_box__P9W6o {
+        padding-left: 24px;
+        padding-right: 0
+    }
+
+    [dir=rtl] .OrderSummary_account_bar__pVeoR .OrderSummary_account_det_box__Fu5JR .OrderSummary_pay_detail_slide_box__GuWZq {
+        padding-left: 0;
+        padding-right: 24px
+    }
+}
+
+.OrderSummary_pop_up__Bssor {
+    background: var(--black1) !important;
+    box-shadow: none !important;
+    box-sizing: border-box !important;
+    color: var(--white1) !important;
+    cursor: pointer;
+    display: block !important;
+    font-family: Arial !important;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    margin-bottom: 18px !important;
+    max-width: calc(100vw - 40px);
+    padding: 16px 38px 16px 16px !important;
+    position: relative
+}
+
+.OrderSummary_pop_up__Bssor>div:before {
+    background: var(--black1) !important;
+    box-shadow: none !important;
+    margin-left: 20px !important
+}
+
+.OrderSummary_pop_up__Bssor .OrderSummary_close_icon__kkksR {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAS9JREFUWAnVVwEOgyAMNPuO+8++48O3uKtaUwjUtiDLmhAF2rsrrSZMk7B1XWcxveW1yoGNBeON8bqFGaCEfXAsCQcWiZztFhEAZ3Lm2UVgNmMQqbSuIgCckxMXcewlVxyay2HGNjsmxdMnbkx3gMIfxgoHCjHNGC0ALbEih+SbBeZp6tcBr1q3x5rZA+jxTTK9mliALT5XPOq+RqDtqaDezQrRB+s0pKl94uVN/MFSarIx5KzkEJFnTSJozd3tDwb+i+eRPdW4ZsPrP6YJkW6p+bZstb0uZbUQWHxCYjzAHl+TmAhgJKYopgWoJXYT0wwAlDBGOLBwjm4sd0CBNF8yY5odcwbD/BIbDk+M/Pfa9ZeqiDgvJr+7mvEpQiWJ6Jo5Y/NTnMTCa8kTDsOv519CDHEbq0wl1wAAAABJRU5ErkJggg==);
+    background-size: 100% 100%;
+    content: "";
+    height: 12px;
+    opacity: .8;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 12px
+}
+
+@media(min-width:768px) {
+    .OrderSummary_pop_up__Bssor {
+        margin-bottom: 12px !important;
+        max-width: 424px
+    }
+}

